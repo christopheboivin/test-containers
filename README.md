@@ -3,9 +3,10 @@
 Testing the [testcontainers](https://www.testcontainers.org) framework with some postgresql database
 
 ## Prerequisite
-For running "in real life":  
-Having a postgresql 12 server running with a user "user-test" matching the application.properties.  
-This user must have the right to create tables.
+- For building: having docker installed and running 
+- For running "in real life":
+  - Having a postgresql 12 server running with a user "user-test" matching the application.properties.
+  - This user must have the right to create tables.
 
 ## Building
 `./mvnw package`
