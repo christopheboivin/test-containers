@@ -19,3 +19,4 @@ Create a user :
 curl -i -H "Content-Type:application/json" -d '{"firstName": "Thom", "lastName": "Yorke"}' http://localhost:8080/users
 ```
 ## TODO
+[] Add more specific container with `@Rule` and `PostgreSQLContainer`
