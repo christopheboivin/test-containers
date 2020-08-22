@@ -3,6 +3,7 @@ package org.cbo.testcontainers;
 import org.cbo.testcontainers.data.User;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 @TestPropertySource(
         locations = "classpath:application-test-specific.properties")
+@DisplayName("UserRepository awesome tests")
 public class UserRepositoryTest {
 
     @Autowired
